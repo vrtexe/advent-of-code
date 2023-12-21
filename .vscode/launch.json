@@ -1,0 +1,57 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Attach to Remote Program",
+      "request": "attach",
+      "hostName": "localhost",
+      "port": "8787"
+    },
+    {
+      "type": "java",
+      "name": "Launch Day21",
+      "request": "launch",
+      "mainClass": "solutions.year2022.Day21",
+      "projectName": "AdventOfCode_dd8542ee"
+    },
+    {
+      "type": "java",
+      "name": "Launch Example",
+      "request": "launch",
+      "mainClass": "common.Example",
+      "projectName": "AdventOfCode_dd8542ee"
+    },
+    {
+      "type": "java",
+      "name": "Launch Day01",
+      "request": "launch",
+      "mainClass": "solutions.year2022.Day01",
+      "projectName": "AdventOfCode_dd8542ee"
+    },
+    {
+      "type": "java",
+      "name": "Launch Day14",
+      "request": "launch",
+      "mainClass": "solutions.year2022.Day14",
+      "projectName": "AdventOfCode_dd8542ee"
+    },
+    {
+      "type": "java",
+      "name": "Launch Day15",
+      "request": "launch",
+      "mainClass": "solutions.year2022.Day15",
+      "projectName": "AdventOfCode_dd8542ee"
+    },
+    {
+      "type": "java",
+      "name": "Launch Day02",
+      "request": "launch",
+      "mainClass": "solutions.year2022.Day02",
+      "projectName": "AdventOfCode_dd8542ee"
+    }
+  ]
+}

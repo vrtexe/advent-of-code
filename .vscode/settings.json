@@ -1,0 +1,6 @@
+{
+  "java.project.referencedLibraries": ["lib/**/*.jar", "lib/gson-2.10.jar"],
+  "java.debug.settings.vmArgs": "-Dplatform=vscode",
+  "java.project.outputPath": "target/vscode/AdventOfCode",
+  "java.project.sourcePaths": ["src/main/java", "src/main/resources"]
+}
