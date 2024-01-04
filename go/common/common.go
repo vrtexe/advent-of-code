@@ -105,3 +105,21 @@ type FileWriter struct {
 	Write func(line string)
 	Close func()
 }
+
+func Prepend(x []int, y int) []int {
+	x = append(x, 0)
+	copy(x[1:], x)
+	x[0] = y
+	return x
+}
+
+func Pop[S ~[]E, E any](s S) (E, S) {
+	lastIndex := len(s) - 1
+	last := s[lastIndex]
+	return last, s[:lastIndex]
+}
+
+func Shift[S ~[]E, E any](s S) (E, S) {
+	last := s[0]
+	return last, s[1:]
+}

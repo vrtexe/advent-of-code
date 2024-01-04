@@ -365,9 +365,6 @@ type Condition struct {
 	lessThan, greaterThan int
 }
 
-// 18446523642893126191
-// 167409079868000
-// 196513904884482
 const (
 	ACCEPT = "A"
 	REJECT = "R"
