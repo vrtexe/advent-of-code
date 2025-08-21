@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Day17",
+      "request": "launch",
+      "mainClass": "solutions.year2022.Day17",
+      "projectName": "AdventOfCode_dd8542ee"
+    },
+    {
+      "name": "Launch file",
+      "type": "go",
+      "request": "launch",
+      "mode": "debug",
+      "program": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Day20",
+      "request": "launch",
+      "mainClass": "solutions.year2022.Day20",
+      "projectName": "AdventOfCode_dd8542ee"
+    },
+    {
+      "type": "java",
       "name": "Attach to Remote Program",
       "request": "attach",
       "hostName": "localhost",
