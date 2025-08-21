@@ -1,0 +1,41 @@
+{
+  "tasks": {
+    "task:new": "deno run --allow-read --allow-write --allow-run src/scripts/setup.ts",
+    "task:2015:01": "deno run --watch --allow-read src/2015/task-01.ts",
+    "task:2015:02": "deno run --watch --allow-read src/2015/task-02.ts",
+    "task:2023:17": "deno run --watch --allow-read src/2023/task-17.ts",
+    "task:2023:21": "deno run --watch --allow-read src/2023/task-21.ts",
+    "task:2023:23": "deno run --watch --allow-read src/2023/task-23.ts",
+    "task:2024:01": "deno run --watch --allow-read src/2024/task-01.ts",
+    "task:2024:02": "deno run --watch --allow-read src/2024/task-02.ts",
+    "task:2024:03": "deno run --watch --allow-read src/2024/task-03.ts",
+    "task:2024:04": "deno run --watch --allow-read src/2024/task-04.ts",
+    "task:2024:05": "deno run --watch --allow-read src/2024/task-05.ts",
+    "task:2024:06": "deno run --watch --allow-read src/2024/task-06.ts",
+    "task:2024:07": "deno run --watch --allow-read src/2024/task-07.ts",
+    "task:2024:08": "deno run --watch --allow-read src/2024/task-08.ts",
+    "task:2024:09": "deno run --watch --allow-read src/2024/task-09.ts",
+    "task:2024:10": "deno run --watch --allow-read src/2024/task-10.ts",
+    "task:2023:24": "deno run --watch --allow-read src/2023/task-24.ts",
+    "task:2024:11": "deno run --watch --allow-read src/2024/task-11.ts",
+    "task:2024:12": "deno run --watch --allow-read src/2024/task-12.ts",
+    "task:2023:25": "deno run --watch --allow-read src/2023/task-25.ts",
+    "task:2024:13": "deno run --watch --allow-read src/2024/task-13.ts",
+    "task:2024:14": "deno run --watch --allow-read src/2024/task-14.ts",
+    "task:2024:15": "deno run --watch --allow-read src/2024/task-15.ts",
+    "task:2024:16": "deno run --watch --allow-read src/2024/task-16.ts",
+    "task:2024:17": "deno run --watch --allow-read src/2024/task-17.ts",
+    "task:2024:18": "deno run --watch --allow-read src/2024/task-18.ts",
+    "task:2024:20": "deno run --watch --allow-read src/2024/task-20.ts",
+    "task:2024:22": "deno run --watch --allow-read src/2024/task-22.ts",
+    "task:2024:23": "deno run --watch --allow-read src/2024/task-23.ts",
+    "task:2024:21": "deno run --watch --allow-read src/2024/task-21.ts",
+    "task:2024:24": "deno run --watch --allow-read src/2024/task-24.ts",
+    "task:2024:25": "deno run --watch --allow-read src/2024/task-25.ts",
+    "task:2024:19": "deno run --watch --allow-read src/2024/task-19.ts"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1",
+    "@std/path": "jsr:@std/path@^1.0.8"
+  }
+}
